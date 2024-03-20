@@ -21,11 +21,11 @@ public class SingleInheritanceDemo
 	{
 		Animal1 a = new Animal1();
 		a.getName("dog");
-		
+
 		Dog d = new Dog();
 		d.getName("dog");
 		d.getBreedName("puppy");
-		
+
 	}
 
 }

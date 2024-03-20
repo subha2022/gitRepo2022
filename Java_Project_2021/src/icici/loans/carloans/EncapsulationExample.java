@@ -7,6 +7,7 @@ public class EncapsulationExample
 	private int empID;
 	private int age;
 	private int mobNum;
+	
 	public String getName() {
 		return name;
 	}
@@ -32,6 +33,6 @@ public class EncapsulationExample
 		this.mobNum = mobNum;
 	}
 	
-		
+	
 
 }

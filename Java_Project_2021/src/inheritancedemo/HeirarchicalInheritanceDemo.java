@@ -26,22 +26,22 @@ class D extends A
 	{
 		System.out.println("D is sub class of A");
 	}
-	}
+}
 public class HeirarchicalInheritanceDemo {
 
 	public static void main(String[] args) {
 		B obj1= new B();
 		obj1.show();
 		obj1.show1();
-		
+
 		C obj2=new C();
 		obj2.show();
 		obj2.show2();
-		
+
 		D obj3=new D();
 		obj3.show();
 		obj3.show3();
-		
+
 	}
 
 }

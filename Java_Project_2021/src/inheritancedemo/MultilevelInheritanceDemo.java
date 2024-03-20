@@ -38,16 +38,16 @@ public class MultilevelInheritanceDemo {
 	public static void main(String[] args) {
 		Animal a=new Animal();
 		a.display();
-		
+
 		Cat c=new Cat();
-		 c.display();
-		 c.display1();
-		 
-		 BabyCat bc=new BabyCat();
-		 bc.display();
+		c.display();
+		c.display1();
+
+		BabyCat bc=new BabyCat();
+		bc.display();
 		bc.display1();
 		bc.display2();
-		
+
 
 	}
 
